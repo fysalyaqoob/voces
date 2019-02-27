@@ -1,24 +1,36 @@
 body {
-    font-size: 11px;
     font-family: 'Helvetica', sans-serif;
 }
 
-.title {
+.section h2 {
     font-family: 'Futura Std';
     font-size: 40px;
+    margin-bottom: 36px;
     font-weight: bold;
+}
+
+.section:nth-child(even) .section-container {
+    margin-left: auto;
 }
 
 .section {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    min-height: 760px;
+    min-height: 680px;
     height: 100vh;
+    font-weight: 300;
+    line-height: 20px;
+    font-size: 12px;
+    position: relative;
+}
+
+.section-content p:last-child {
+    margin-bottom: 0;
 }
 
 .section-hero {
-    background-image: url(../img/hero.svg);
+    background-image: url(../img/hero-lg.jpg);
     text-align: center;
 }
 
@@ -26,5 +38,470 @@ body {
     background: #2e0030;
     max-width: 398px;
     margin: auto;
-    padding: 15px 45px;
+    padding: 15px 35px 20px 35px;
+    color: #f2eaa0;
+    font-size: 11px;
+    line-height: 17px;
+}
+
+.section-hero .section-hero-content hr {
+    border-top-color: #83004e;
+    max-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-bottom .section-content {
+    padding: 60px 120px 25px 120px;
+}
+
+.section .section-container,
+.section .social-icons {
+    width: 650px;
+    text-align: center;
+}
+
+#nelson-pacue {
+    background-image: url(../img/nelson.jpg);
+}
+
+.section-red h2 {
+    color: #c72d31;
+}
+
+.section-red .section-content {
+    background: #0c002b;
+    color: #db7883;
+}
+
+.section .play-button {
+    color: #c72d31;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.section .play-button a {
+    position: relative;
+}
+
+.section .play-button a {
+    width: auto;
+    background: #c72d31;
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.section .play-button a:before {
+    content: "\f04b";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    display: inline-block;
+    font-size: 16px;
+    color: #0c002b;
+    margin-left: 1px;
+}
+
+.section .social-icons {
+    text-align: center;
+    font-size: 13px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+.section:nth-child(odd) .social-icons {
+    right: auto;
+    left: 0;
+}
+
+.section .social-icons > span,
+.section .social-icons a {
+    display: inline-block;
+    line-height: 1;
+    vertical-align: top;
+    text-align: left;
+}
+
+.section .social-icons a {
+    width: 25px;
+    height: 25px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 50%;
+    color: #0c002b;
+    font-size: 16px;
+    margin-left: 3px;
+}
+
+.section .social-icons > span {
+    text-align: right;
+    line-height: 11px;
+    padding-right: 5px;
+}
+
+.section-red .social-icons > span {
+    color: #c72d31;
+}
+
+.section-red .social-icons a {
+    background: #c72d31;
+}
+
+/*
+* Guillermo Perez
+**/
+#guillermo-perez {
+    background-image: url(../img/guillermo.jpg);
+}
+
+.section-orange .section-content {
+    background: #1c0f10;
+    color: #c45326;
+}
+
+.section-orange h2 {
+    color: #cd7240
+}
+
+.section-orange .play-button {
+    color: #cd7240;
+}
+
+.section-orange .play-button a {
+    background: #cd7240;
+}
+
+.section-orange .social-icons {
+    color: #cd7240;
+}
+
+.section-orange .social-icons a {
+    background: #cd7240;
+}
+
+/*
+* Salome Melo
+**/
+#salome-melo {
+    background-image: url(../img/salome.jpg);
+}
+
+.section-blue .section-content {
+    background: #14192d;
+    color: #758fb1;
+}
+
+.section-blue h2 {
+    color: #758fb1
+}
+
+.section-blue .play-button {
+    color: #758fb1;
+}
+
+.section-blue .play-button a {
+    background: #758fb1;
+    color: #14192d;
+}
+
+.section-blue .social-icons {
+    color: #758fb1;
+}
+
+.section-blue .social-icons a {
+    background: #758fb1;
+}
+
+/*
+* Erlendy Cuero
+**/
+#erlendy-cuero {
+    background-image: url(../img/elrendy.jpg);
+}
+
+.section-yellow .section-content {
+    background: #1e0019;
+    color: #f2cf31;
+}
+
+.section-yellow h2 {
+    color: #ebb02c
+}
+
+.section-yellow .play-button {
+    color: #f2cf31;
+}
+
+.section-yellow .play-button a {
+    background: #ebb02c;
+    color: #1e0019;
+}
+
+.section-yellow .social-icons {
+    color: #f2cf31;
+}
+
+.section-yellow .social-icons a {
+    background: #ebb02c;
+}
+
+/*
+* Gustavo Merchan
+**/
+#gustavo-merchan {
+    background-image: url(../img/gustavo.jpg);
+}
+
+.section-red2 .section-content {
+    background: #2b060d;
+    color: #db7883;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.section-red2 h2 {
+    color: #d7163b
+}
+
+.section-red2 .play-button {
+    color: #d7163b;
+}
+
+.section-red2 .play-button a {
+    background: #d7163b;
+    color: #2b060d;
+}
+
+.section-red2 .social-icons {
+    color: #2b060d;
+}
+
+.section-red2 .social-icons a {
+    background: #2b060d;
+    color: #d7163b;
+}
+
+/*
+* Laura Weinstein
+**/
+#laura-weinstein {
+    background-image: url(../img/laura.jpg);
+}
+
+.section-red3 .section-content {
+    background: #1e0019;
+    color: #dd7fb3;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.section-red3 h2 {
+    color: #d7174e;
+}
+
+.section-red3 .play-button {
+    color: #d7163b;
+}
+
+.section-red3 .play-button a {
+    background: #d7174e;
+    color: #3c0029;
+}
+
+.section-red3 .social-icons {
+    color: #d7174e;
+}
+
+.section-red3 .social-icons a {
+    background: #d7174e;
+    color: #3c0029;
+}
+
+/*
+* Martha Lopez
+**/
+#martha-lopez {
+    background-image: url(../img/martha.jpg);
+}
+
+.section-yellow2 .section-content {
+    background: #1f0011;
+    color: #936245;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.section-yellow2 h2 {
+    color: #e3a469;
+}
+
+.section-yellow2 .play-button {
+    color: #e3a469;
+}
+
+.section-yellow2 .play-button a {
+    background: #e3a469;
+    color: #1f0011;
+}
+
+.section-yellow2 .social-icons {
+    color: #e3a469;
+}
+
+.section-yellow2 .social-icons a {
+    background: #e3a469;
+    color: #1f0011;
+}
+
+/*
+* Martha Rajos
+**/
+#martha-rajos {
+    background-image: url(../img/martha-2.jpg);
+}
+
+.section-red4 .section-content {
+    background: #1f0011;
+    color: #d82b55;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.section-red4 h2 {
+    color: #d52945;
+}
+
+.section-red4 .play-button {
+    color: #d52945;
+}
+
+.section-red4 .play-button a {
+    background: #d52945;
+    color: #1f0011;
+}
+
+.section-red4 .social-icons {
+    color: #d52945;
+}
+
+.section-red4 .social-icons a {
+    background: #d52945;
+    color: #4e0f1e;
+}
+
+/*
+* Luis Perez
+**/
+#luis-perez {
+    background-image: url(../img/luis.jpg);
+}
+
+.section-blue2 .section-content {
+    background: #000b1e;
+    color: #5c95e1;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.section-blue2 h2 {
+    color: #bbdcec;
+}
+
+.section-blue2 .play-button {
+    color: #bbdcec;
+}
+
+.section-blue2 .play-button a {
+    background: #bbdcec;
+    color: #000b1e;
+}
+
+.section-blue2 .social-icons {
+    color: #000b1e;
+}
+
+.section-blue2 .social-icons a {
+    background: #000b1e;
+    color: #043486;
+}
+
+/*
+* Carolina Sanchez
+**/
+#carolina-sanchez {
+    background-image: url(../img/carolina.jpg);
+}
+
+.section-zinc .section-content {
+    background: #091b13;
+    color: #75b699;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.section-zinc h2 {
+    color: #75b699;
+}
+
+.section-zinc .play-button {
+    color: #75b699;
+}
+
+.section-zinc .play-button a {
+    background: #75b699;
+    color: #091b13;
+}
+
+.section-zinc .social-icons {
+    color: #75b699;
+}
+
+.section-zinc .social-icons a {
+    background: #75b699;
+    color: #091b13;
+}
+
+/*
+* Cecilia Mantilla
+**/
+#cecilia-mantilla {
+    background-image: url(../img/cecilia.jpg);
+}
+
+.section-blue3 .section-content {
+    background: #140529;
+    color: #e7dfb6;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.section-blue3 h2 {
+    color: #e7dfb6;
+}
+
+.section-blue3 .play-button {
+    color: #e7dfb6;
+}
+
+.section-blue3 .play-button a {
+    background: #e7dfb6;
+    color: #140529;
+}
+
+.section-blue3 .social-icons {
+    color: #e7dfb6;
+}
+
+.section-blue3 .social-icons a {
+    background: #e7dfb6;
+    color: #140529;
 }

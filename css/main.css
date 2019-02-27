@@ -285,8 +285,8 @@ body {
 }
 
 .section-red2 .social-icons a {
-    background: #2b060d;
-    color: #d7163b;
+    background: #d7163b;
+    color: #2b060d;
 }
 
 /*
@@ -429,8 +429,8 @@ body {
 }
 
 .section-blue2 .social-icons a {
-    background: #000b1e;
-    color: #043486;
+    background: #bbdcec;
+    color: #000b1e;
 }
 
 /*
@@ -503,4 +503,119 @@ body {
 .section-blue3 .social-icons a {
     background: #e7dfb6;
     color: #140529;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*
+* Phone
+**/
+
+@media (max-width: 767px) {
+    .section .section-container, 
+    .section .social-icons {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .section {
+        min-height: 1px;
+    }
+    
+    .section-hero {
+        background: #2e0030;
+    }
+    
+    .section-hero .section-hero-content {
+        padding: 20px 20px 50px 20px;
+    }
+    
+    #nelson-pacue {
+        background: #0c002b;
+    }
+    
+    .section-bottom .section-content {
+        padding: 50px 30px 0 30px;
+    }
+    
+    .section-bottom {
+        padding: 0 0 20px;
+    }
+    
+    .section .social-icons {
+        position: relative;
+        right: unset;
+        bottom: unset;
+        padding-bottom: 20px;
+    }
+    
+    .section h2 {
+        margin-bottom: 20px;
+        font-size: 35px;
+    }
+    
+    .section .play-button {
+        padding-top: 34px;
+        margin-bottom: 20px;
+    }
+    
+    .section .social-icons > span {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding-right: 0;
+    }
+    
+    .section .social-icons > span br {
+        display: none;
+    }
+    
+    .section .social-icons a {
+        margin: 0 3px;
+    }
+    
+    #guillermo-perez {
+        background: #1c0f10;
+    }
+    
+    #salome-melo {
+        background: #14192d;
+    }
+    
+    #erlendy-cuero {
+        background: #1e0019;
+    }
+    
+    #gustavo-merchan {
+        background: #2b060d;
+    }
+    
+    #laura-weinstein {
+        background: #1e0019;
+    }
+    
+    #martha-lopez {
+        background: #1f0011;
+    }
+    
+    #martha-rajos {
+        background: #1f0011;
+    }
+    
+    #luis-perez {
+        background: #000b1e;
+    }
+    
+    #carolina-sanchez {
+        background: #091b13;
+    }
+    
+    #cecilia-mantilla {
+        background: #140529;
+    }
 }

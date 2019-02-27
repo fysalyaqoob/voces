@@ -1,0 +1,30 @@
+body {
+    font-size: 11px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.title {
+    font-family: 'Futura Std';
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 760px;
+    height: 100vh;
+}
+
+.section-hero {
+    background-image: url(../img/hero.svg);
+    text-align: center;
+}
+
+.section-hero .section-hero-content {
+    background: #2e0030;
+    max-width: 398px;
+    margin: auto;
+    padding: 15px 45px;
+}

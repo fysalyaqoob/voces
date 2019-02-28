@@ -511,8 +511,15 @@ img {
 }
 
 /*
-* Phone
+* Responsive Quries
 **/
+@media (min-width: 1200px) {
+    .section {
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: 50% 50%;
+    }
+}
 
 @media (max-width: 767px) {
     .section .section-container, 
